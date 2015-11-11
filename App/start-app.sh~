@@ -1,0 +1,62 @@
+#!/bin/bash
+
+help(){
+	echo "start-app.sh [device name] [app package name] [launch activity name]"
+}
+
+mapfile="./app-package-laucher.txt"
+if [ ! -e $mapfile ];then
+	echo "error : the app-package-laucherAcitivity file do not exist"
+	exit
+fi
+
+if [ $# -eq 2 ];then 
+	while read line
+	do
+		sig="0"
+		package=""
+		activity=""
+		for element in $line
+		do
+			if [ $sig = "1" ];then
+				package=$element
+				sig="2"	
+			elif [ $sig = "2" ];then		
+				activity=$element
+			else
+				if [ $2 = $element ];then
+					sig="1"
+				else
+					break
+				fi
+			fi
+		done
+
+		if [ $sig = "2" ];then
+			echo "check package $package if it's installed"
+			installedApp=`adb -s $1 shell dumpsys package $package`
+			installedApp=${installedApp:0:3}
+			if [ ! $installedApp ];then
+				echo "install app $2 , package $package"
+				adb -s $1 install ./$2.apk
+			fi
+
+			runApp=`adb -s $1 shell ps|grep "$package"`
+			runApp=${runApp:0:3}
+			if [ $runApp ];then
+				adb -s $1 shell am force-stop $package
+			fi
+
+			echo "start $package"
+			adb -s $1 shell am start -n $package/$package.$activity
+	
+			runApp=`adb -s $1 shell ps|grep "$package"`
+			echo "started $package : $runApp"
+			#restart app end
+			break
+		fi
+	done < $mapfile
+
+else
+	help
+fi
