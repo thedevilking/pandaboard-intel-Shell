@@ -13,7 +13,8 @@ if [ $# -eq 1 ];then
 		clear
 		echo "************************************"
 		
-		adb -s $1 shell "dmesg -c -n 4"|grep "iAODV in RS"
+		#adb -s $1 shell "dmesg -c -n 4"|grep "iAODV in RS"
+		adb -s $1 shell "dmesg -c -n 4"|grep "iAODV in RS: flash "
 		#adb -s $1 shell "dmesg -c -n 4"|grep "testWu:temp"
 		adb -s $1 shell netcfg
 		sleep 2

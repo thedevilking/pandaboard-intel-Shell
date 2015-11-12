@@ -41,9 +41,11 @@ help(){
 	echo "./detach-device.sh -dmesgWatch : open another terminal to watch device's dmesg"
 	echo "./detach-device.sh -reboot : reboot the all the devices"
 	echo "./detach-device.sh -renameDevices : rename all the devices with -ip"
+	echo "./detach-device.sh -getGeoDataLog : get the geoDtn data from devices"
 	echo "with 2 arguments :"
 	echo "./detach-device.sh -reinstallApp [app name] : reinstall the app with the app name"
 	echo "./detach-device.sh -startApp [app name] : start the app with the app name"
+	echo "./detach-device.sh -clearData [dataname:(geoDTN)] : excute dataname's sh to clear data"
 
 }
 
@@ -191,6 +193,13 @@ elif [ $# -eq 1 ];then
 
 		sudo adb kill-server
 		sudo adb devices	
+	elif [ $1 = "-getGeoDataLog" ];then
+		cd ./geoDtn
+			./getGeoData.sh $alldevices
+		cd $this_dir
+
+	#添加其他单个参数的地方	
+
 	else
 		#has -arugment
 		argument=${1:0:5}
@@ -256,6 +265,18 @@ elif [ $# -eq 2 ];then
 			./start-app.sh $str $2
 		done
 		cd $this_dir
+
+	elif [ $1 = "-clearData" ];then
+		cd ./clearData
+		if [ $2 = "geoDTN" ];then
+			./clearGeoDtnData.sh $alldevices
+		else
+			echo "./detach-device.sh -clearData $2 does't exist, please check the help"
+		fi
+		cd $this_dir
+
+	#添加其他2个参数的地方
+
 	else
 		echo "error : wrong arguments"	
 		#help
