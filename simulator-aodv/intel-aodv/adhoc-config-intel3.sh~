@@ -1,11 +1,21 @@
 #!/bin/bash
 usage(){
-       	echo "usage: `basename $0` ip-addrs"
+       	echo "usage: `basename $0` ip-addrs (aodv-blacklist) (dtn-blacklist)"
 }
-IP=$1
-if [ $# -ne 1 ]; then
+
+if [ $# -lt 1 ]; then
         usage
         exit 1
+fi
+
+IP=$1
+aodvblacklist=""
+dtnblacklist=""
+if [ $2 ];then
+	aodvblacklist=$2
+fi
+if [ $3 ];then
+	dtnblacklist=$3
 fi
 
 del_adhoc0=0
@@ -75,7 +85,7 @@ GATEWAY="aodv_gateway=0"
 #METRIC="routing_metric=ETT"
 METRIC="routing_metric=HOPS"
 RATE="nominal_rate=60"
-COM_RADIUS="com_radius=500"
+COM_RADIUS="com_radius=650"
 echo "1" > /proc/sys/net/ipv4/ip_forward
 echo "Running AODV-MCC"
 rmmod fbaodv_intel

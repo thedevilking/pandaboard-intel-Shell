@@ -14,7 +14,6 @@ if [ $# -eq 1 ];then
 		echo "************************************"
 		
 		#adb -s $1 shell "dmesg -c -n 4"|grep "iAODV in RS"
-		#adb -s $1 shell "dmesg -c -n 4"|grep "iAODV in RS"
 		adb -s $1 shell cat /proc/fbaodv/neigh
 		adb -s $1 shell cat /proc/fbaodv/dis_history
 		#adb -s $1 shell "dmesg -c -n 4"|grep "testWu:temp"

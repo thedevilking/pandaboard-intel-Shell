@@ -85,7 +85,7 @@ GATEWAY="aodv_gateway=0"
 #METRIC="routing_metric=ETT"
 METRIC="routing_metric=HOPS"
 RATE="nominal_rate=60"
-COM_RADIUS="com_radius=500"
+COM_RADIUS="com_radius=300"
 echo "1" > /proc/sys/net/ipv4/ip_forward
 echo "Running AODV-MCC"
 rmmod fbaodv_panda
