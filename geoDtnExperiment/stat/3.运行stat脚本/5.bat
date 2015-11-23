@@ -1,0 +1,1 @@
+adb -s "med-192.168.1.5" shell  packet_stat_adhoc0 192.168.1.5
