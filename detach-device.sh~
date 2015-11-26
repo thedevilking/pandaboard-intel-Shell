@@ -42,6 +42,10 @@ help(){
 	echo "./detach-device.sh -reboot : reboot the all the devices"
 	echo "./detach-device.sh -renameDevices : rename all the devices with -ip"
 	echo "./detach-device.sh -getGeoDataLog : get the geoDtn data from devices"
+	echo "./detach-device.sh -logcat : logcat the dtn-bytewalla log" 
+	echo "./detach-device.sh -endExperiment : force-stop the dtn-bytewalla"
+	echo "./detach-device.sh -startDtnExperiment : start the dtn experiment"
+	echo "./detach-device.sh -prepareDtnExperiment : prepare for the dtn experiment,transmit the files"
 	echo "with 2 arguments :"
 	echo "./detach-device.sh -reinstallApp [app name] : reinstall the app with the app name"
 	echo "./detach-device.sh -startApp [app name] : start the app with the app name"
@@ -194,8 +198,29 @@ elif [ $# -eq 1 ];then
 		sudo adb kill-server
 		sudo adb devices	
 	elif [ $1 = "-getGeoDataLog" ];then
-		cd ./geoDtn
+		cd ./geoDtnExperiment
 			./getGeoData.sh $alldevices
+		cd $this_dir
+
+	elif [ $1 = "-logcat" ];then
+		for str in $alldevices
+		do
+			gnome-terminal -x bash -c "./geoDtnExperiment/logcatSh/logcat.sh $str"
+		done
+
+	elif [ $1 = "-prepareDtnExperiment" ];then
+		cd ./geoDtnExperiment/dtnExperimentFile/
+			./prepareExperiment.sh $alldevices
+		cd $this_dir
+
+	elif [ $1 = "-startDtnExperiment" ];then
+		cd ./geoDtnExperiment/
+			./startExperiment.sh
+		cd $this_dir
+
+	elif [ $1 = "-endExperiment" ];then
+		cd ./geoDtnExperiment/
+			./endExperiment.sh $alldevices
 		cd $this_dir
 
 	#添加其他单个参数的地方	

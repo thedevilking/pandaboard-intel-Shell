@@ -2,3 +2,4 @@ wuDTN	android.geosvr.dtn	DTNManager
 wwtaoDTN	android.geosvr.dtn	DTNManager
 mapinterface	dtn.readadministrativearea	ReadAdministrativeAreaActivity
 wuDTN-no-gps	android.geosvr.dtn	DTNManager
+epidemicDTN	android.geosvr.dtn	DTNManager

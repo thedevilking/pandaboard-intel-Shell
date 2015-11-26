@@ -1,0 +1,10 @@
+#!/bin/bash
+
+package="android.geosvr.dtn"
+
+for device in `ls ./geoDTN`
+do 
+	if [ -d "./geoDTN/"$device ];then
+		adb -s $device shell am force-stop $package
+	fi
+done
