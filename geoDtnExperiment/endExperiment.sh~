@@ -2,9 +2,13 @@
 
 package="android.geosvr.dtn"
 
-for device in `ls ./geoDTN`
+for device in $*
 do 
-	if [ -d "./geoDTN/"$device ];then
-		adb -s $device shell am force-stop $package
-	fi
+	adb -s $device shell am force-stop $package
+
+	#end dection
+	cd ./stat/
+		echo "excute end Dection.sh"
+		./endDection.sh
+	cd ..
 done

@@ -6,4 +6,9 @@ for device in $*
 do 
 	adb -s $device shell am force-stop $package
 
+	#end dection
+	cd ./stat/
+		echo "excute end Dection.sh"
+		./endDection.sh $device
+	cd ..
 done

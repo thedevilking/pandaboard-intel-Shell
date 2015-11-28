@@ -215,7 +215,7 @@ elif [ $# -eq 1 ];then
 
 	elif [ $1 = "-startDtnExperiment" ];then
 		cd ./geoDtnExperiment/
-			./startExperiment.sh
+			./startExperiment.sh $alldevices
 		cd $this_dir
 
 	elif [ $1 = "-endExperiment" ];then
