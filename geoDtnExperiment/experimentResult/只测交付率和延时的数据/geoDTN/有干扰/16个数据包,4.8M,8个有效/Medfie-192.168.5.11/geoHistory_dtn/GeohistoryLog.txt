@@ -1,0 +1,1344 @@
+AreaManager	从初始文件中获得本地移动的移动规律，并打印出来：
+AreaManager	第1个区域的移动规律：
+level and id:1#2138123745,hourVector:(0.0:0:0:0.8179:0.8179:0:0:0.8515:0.8515:0:0:0.8864:0.8864:0:0:0:0:0:0:0.9606:0.9606:0:0.7778:0.7778),
+
+AreaManager	第2个区域的移动规律：
+level and id:1#-479623740,hourVector:(0.0:0:0.8097:0.8097:0:0:0.8429:0.8429:0:0:0.8775:0.8775:0:0:0:0:0:0:0.951:0.951:0:0:1.7678:0.99),
+
+AreaManager	第3个区域的移动规律：
+level and id:3#912940,hourVector:(0.7856781408072188:1.5952:1.6114:1.6276:1.6441:1.6607:1.6775:1.6944:1.7115:1.7288:1.7463:1.7639:1.7817:1.7997:0.9044:0.9135:0.9227:0.9321:1.8925:1.9116:1.9309:1.9504:3.518:3.3235),
+weekVector:(0.0:0:0:0.9:1.9:0:0),
+monthVector:(0.0:0:0:0:0:0:0:0:0:0:1:0)
+
+AreaManager	第4个区域的移动规律：
+level and id:2#1587203,hourVector:(0.7856781408072188:1.5952:1.6114:1.6276:1.6441:1.6607:1.6775:1.6944:1.7115:1.7288:1.7463:1.7639:1.7817:1.7997:0.9044:0.9135:0.9227:0.9321:1.8925:1.9116:1.9309:1.9504:3.518:3.3235),
+weekVector:(0.0:0:0:0.9:1.9:0:0),
+
+AreaManager	第5个区域的移动规律：
+level and id:1#1854974240,hourVector:(0.7856781408072188:0.7936:0:0:0.8262:0.8262:0:0:0.8601:0.8601:0:0:0.8953:0.8953:0:0:0:0:0:0:0.9703:0.9703:0:0.7857),
+
+AreaManager	第6个区域的移动规律：
+level and id:1#-259923744,hourVector:(0.0:0.8016:0.8016:0:0:0.8345:0.8345:0:0:0.8687:0.8687:0:0:0.9044:0.9044:0.9135:0.9227:0.9321:1.8925:0:0:0.9801:1.7501:0.77),
+
+CurrentLocationFromSimulator	返回单例模式
+CurrentLocationFromSimulator	请求经纬度和分层信息线程开始
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.000307)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+FrequencyVectorManager	All Frequency Vector Attenuation:7
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+AreaManager	第1个区域的移动规律：
+level and id:1#2138123745,hourVector:(0.0:0:0:0.8097:0.8097:0:0:0.8429:0.8429:0:0:0.8775:0.8775:0:0:0:0:0:0:0.951:0.951:0:0.77:0.77),
+
+AreaManager	第2个区域的移动规律：
+level and id:1#-479623740,hourVector:(0.0:0:0.8016:0.8016:0:0:0.8345:0.8345:0:0:0.8687:0.8687:0:0:0:0:0:0:0.9415:0.9415:0:0:1.7501:0.9801),
+
+AreaManager	第3个区域的移动规律：
+level and id:3#912940,hourVector:(0.7778213593991465:1.5793:1.5952:1.6114:1.6276:1.6441:1.6607:1.6775:1.6944:1.7115:1.7288:1.7463:1.7639:1.7817:0.8953:0.9044:0.9135:0.9227:1.8735:1.8925:1.9116:1.9309:3.4828:3.2903),
+weekVector:(0.0:0:0:0.9:1.9:0:0),
+monthVector:(0.0:0:0:0:0:0:0:0:0:0:1:0)
+
+AreaManager	第4个区域的移动规律：
+level and id:2#1587203,hourVector:(0.7778213593991465:1.5793:1.5952:1.6114:1.6276:1.6441:1.6607:1.6775:1.6944:1.7115:1.7288:1.7463:1.7639:1.7817:0.8953:0.9044:0.9135:0.9227:1.8735:1.8925:1.9116:1.9309:3.4828:3.2903),
+weekVector:(0.0:0:0:0.9:1.9:0:0),
+
+AreaManager	第5个区域的移动规律：
+level and id:1#1854974240,hourVector:(0.7778213593991465:0.7857:0:0:0.8179:0.8179:0:0:0.8515:0.8515:0:0:0.8864:0.8864:0:0:0:0:0:0:0.9606:0.9606:0:0.7778),
+
+AreaManager	第6个区域的移动规律：
+level and id:1#-259923744,hourVector:(0.0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0.8601:0.8601:0:0:0.8953:0.8953:0.9044:0.9135:0.9227:1.8735:0:0:0.9703:1.7326:0.7623),
+
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.000569)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.000837)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+routerTest	move to a new area : level and id:1#-259923744,hourVector:(0.0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0.8601:0.8601:0:0:0.8953:0.8953:0.9044:0.9135:0.9227:1.8735:0:0:0.9703:1.7326:1.7623),
+
+GeoHistoryRouter	移动到新区域：level and id:1#-259923744,hourVector:(0.0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0.8601:0.8601:0:0:0.8953:0.8953:0.9044:0.9135:0.9227:1.8735:0:0:0.9703:1.7326:1.7623),
+
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.001098)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.001361)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.001617)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.001876)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.002145)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.002396)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.002653)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.002905)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.003151)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.003408)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306636,-0.003599)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306373,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306116,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.305867,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.305610,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.305361,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.305112,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.304852,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+routerTest	move to a new area : level and id:1#-479623740,hourVector:(0.0:0:0.8016:0.8016:0:0:0.8345:0.8345:0:0:0.8687:0.8687:0:0:0:0:0:0:0.9415:0.9415:0:0:1.7501:1.9801),
+
+GeoHistoryRouter	移动到新区域：level and id:1#-479623740,hourVector:(0.0:0:0.8016:0.8016:0:0:0.8345:0.8345:0:0:0.8687:0.8687:0:0:0:0:0:0:0.9415:0.9415:0:0:1.7501:1.9801),
+
+FrequencyVectorManager	All Frequency Vector Attenuation:7
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+AreaManager	第1个区域的移动规律：
+level and id:1#2138123745,hourVector:(0.0:0:0:0.8016:0.8016:0:0:0.8345:0.8345:0:0:0.8687:0.8687:0:0:0:0:0:0:0.9415:0.9415:0:0.7623:0.7623),
+
+AreaManager	第2个区域的移动规律：
+level and id:1#-479623740,hourVector:(0.99:0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0.8601:0.8601:0:0:0:0:0:0:0.9321:0.9321:0:0:1.7326:1.9603),
+
+AreaManager	第3个区域的移动规律：
+level and id:3#912940,hourVector:(1.760043145805155:1.5635:1.5793:1.5952:1.6114:1.6276:1.6441:1.6607:1.6775:1.6944:1.7115:1.7288:1.7463:1.7639:0.8864:0.8953:0.9044:0.9135:1.8548:1.8735:1.8925:1.9116:3.448:4.2474),
+weekVector:(0.0:0:0:1.71:1.71:0:0),
+monthVector:(0.0:0:0:0:0:0:0:0:0:0:1:0)
+
+AreaManager	第4个区域的移动规律：
+level and id:2#1587203,hourVector:(1.760043145805155:1.5635:1.5793:1.5952:1.6114:1.6276:1.6441:1.6607:1.6775:1.6944:1.7115:1.7288:1.7463:1.7639:0.8864:0.8953:0.9044:0.9135:1.8548:1.8735:1.8925:1.9116:3.448:4.2474),
+weekVector:(0.0:0:0:1.71:1.71:0:0),
+
+AreaManager	第5个区域的移动规律：
+level and id:1#1854974240,hourVector:(0.7700431458051551:0.7778:0:0:0.8097:0.8097:0:0:0.8429:0.8429:0:0:0.8775:0.8775:0:0:0:0:0:0:0.951:0.951:0:0.77),
+
+AreaManager	第6个区域的移动规律：
+level and id:1#-259923744,hourVector:(0.0:0.7857:0.7857:0:0:0.8179:0.8179:0:0:0.8515:0.8515:0:0:0.8864:0.8864:0.8953:0.9044:0.9135:1.8548:0:0:0.9606:1.7153:1.7447),
+
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.304599,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.304354,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.304104,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303849,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303586,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303324,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.003529)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.003266)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.003011)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.002752)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.002497)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.002235)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.001973)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.001715)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.001453)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.001203)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.000943)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.000692)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.000440)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.000183)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+FrequencyVectorManager	All Frequency Vector Attenuation:7
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+AreaManager	第1个区域的移动规律：
+level and id:1#2138123745,hourVector:(0.0:0:0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0.8601:0.8601:0:0:0:0:0:0:0.9321:0.9321:0:0.7547:0.7547),
+
+AreaManager	第2个区域的移动规律：
+level and id:1#-479623740,hourVector:(0.9801:0.99:0.7857:0.7857:0:0:0.8179:0.8179:0:0:0.8515:0.8515:0:0:0:0:0:0:0.9227:0.9227:0:0:1.7153:1.9407),
+
+AreaManager	第3个区域的移动规律：
+level and id:3#912940,hourVector:(1.7424427143471035:2.5379:1.5635:1.5793:1.5952:1.6114:1.6276:1.6441:1.6607:1.6775:1.6944:1.7115:1.7288:1.7463:0.8775:0.8864:0.8953:0.9044:1.8363:1.8548:1.8735:1.8925:3.4135:4.2049),
+weekVector:(0.0:0:0:1.71:1.71:0:0),
+monthVector:(0.0:0:0:0:0:0:0:0:0:0:1:0)
+
+AreaManager	第4个区域的移动规律：
+level and id:2#1587203,hourVector:(1.7424427143471035:2.5379:1.5635:1.5793:1.5952:1.6114:1.6276:1.6441:1.6607:1.6775:1.6944:1.7115:1.7288:1.7463:0.8775:0.8864:0.8953:0.9044:1.8363:1.8548:1.8735:1.8925:3.4135:4.2049),
+weekVector:(0.0:0:0:1.71:1.71:0:0),
+
+AreaManager	第5个区域的移动规律：
+level and id:1#1854974240,hourVector:(0.7623427143471035:0.77:0:0:0.8016:0.8016:0:0:0.8345:0.8345:0:0:0.8687:0.8687:0:0:0:0:0:0:0.9415:0.9415:0:0.7623),
+
+AreaManager	第6个区域的移动规律：
+level and id:1#-259923744,hourVector:(0.0:0.7778:0.7778:0:0:0.8097:0.8097:0:0:0.8429:0.8429:0:0:0.8775:0.8775:0.8864:0.8953:0.9044:1.8363:0:0:0.951:1.6982:1.7273),
+
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.000086)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+routerTest	move to a new area : level and id:1#2138123745,hourVector:(0.0:1:0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0.8601:0.8601:0:0:0:0:0:0:0.9321:0.9321:0:0.7547:0.7547),
+
+GeoHistoryRouter	移动到新区域：level and id:1#2138123745,hourVector:(0.0:1:0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0.8601:0.8601:0:0:0:0:0:0:0.9321:0.9321:0:0.7547:0.7547),
+
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.000359)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.000618)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.000885)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.001136)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.001389)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.001646)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.001903)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.002157)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+GeoHistoryRouter	向邻居dtn://192.168.5.13.wu.com发送了bundle成功
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.13.wu.com),ifisNeigh(false)
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+routerTest	收到要发送的DataBundle,des_eid:dtn://192.168.5.13.wu.com
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(51),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 51
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:7,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(2),bundle_51,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	向邻居dtn://192.168.5.14.wu.com发送了bundle成功
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.14.wu.com),ifisNeigh(false)
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+routerTest	收到要发送的DataBundle,des_eid:dtn://192.168.5.14.wu.com
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(52),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 52
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:8,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_52,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	向邻居dtn://192.168.5.13.wu.com发送了bundle成功
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.13.wu.com),ifisNeigh(false)
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+routerTest	收到要发送的DataBundle,des_eid:dtn://192.168.5.13.wu.com
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(53),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 53
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:9,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(2),bundle_53,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+routerTest	收到要发送的DataBundle,des_eid:dtn://192.168.5.14.wu.com
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(54),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 54
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:10,weeklistsize:3,monthlistsize:2
+GeoHistoryRouter	向邻居dtn://192.168.5.14.wu.com发送了bundle成功
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.14.wu.com),ifisNeigh(false)
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_54,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+routerTest	收到要发送的DataBundle,des_eid:dtn://192.168.5.13.wu.com
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(55),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 55
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:11,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(2),bundle_55,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	向邻居dtn://192.168.5.13.wu.com发送了bundle成功
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.13.wu.com),ifisNeigh(false)
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+GeoHistoryRouter	向邻居dtn://192.168.5.14.wu.com发送了bundle成功
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.14.wu.com),ifisNeigh(false)
+routerTest	收到要发送的DataBundle,des_eid:dtn://192.168.5.14.wu.com
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(56),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 56
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:12,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_56,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	向邻居dtn://192.168.5.13.wu.com发送了bundle成功
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.13.wu.com),ifisNeigh(false)
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+routerTest	收到要发送的DataBundle,des_eid:dtn://192.168.5.13.wu.com
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(57),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 57
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:13,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(2),bundle_57,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	向邻居dtn://192.168.5.14.wu.com发送了bundle成功
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.14.wu.com),ifisNeigh(false)
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+routerTest	收到要发送的DataBundle,des_eid:dtn://192.168.5.14.wu.com
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(58),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 58
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:14,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_58,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	向邻居dtn://192.168.5.13.wu.com发送了bundle成功
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.13.wu.com),ifisNeigh(false)
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+routerTest	收到要发送的DataBundle,des_eid:dtn://192.168.5.13.wu.com
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(59),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 59
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:15,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(2),bundle_59,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	向邻居dtn://192.168.5.14.wu.com发送了bundle成功
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.14.wu.com),ifisNeigh(false)
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+routerTest	收到要发送的DataBundle,des_eid:dtn://192.168.5.14.wu.com
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(60),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 60
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:16,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_60,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+routerTest	收到要发送的DataBundle,des_eid:dtn://192.168.5.13.wu.com
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(61),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 61
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:17,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(2),bundle_61,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	向邻居dtn://192.168.5.13.wu.com发送了bundle成功
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.13.wu.com),ifisNeigh(false)
+GeoHistoryRouter	向邻居dtn://192.168.5.14.wu.com发送了bundle成功
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+routerTest	收到要发送的DataBundle,des_eid:dtn://192.168.5.14.wu.com
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(62),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 62
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:18,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_62,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.14.wu.com),ifisNeigh(false)
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.002404)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+GeoHistoryRouter	向邻居dtn://192.168.5.13.wu.com发送了bundle成功
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.13.wu.com),ifisNeigh(false)
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+routerTest	收到要发送的DataBundle,des_eid:dtn://192.168.5.13.wu.com
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(63),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 63
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:19,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(2),bundle_63,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	向邻居dtn://192.168.5.14.wu.com发送了bundle成功
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.14.wu.com),ifisNeigh(false)
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+routerTest	收到要发送的DataBundle,des_eid:dtn://192.168.5.14.wu.com
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(64),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 64
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:20,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_64,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	向邻居dtn://192.168.5.13.wu.com发送了bundle成功
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.13.wu.com),ifisNeigh(false)
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+routerTest	收到要发送的DataBundle,des_eid:dtn://192.168.5.13.wu.com
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(65),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 65
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:21,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(2),bundle_65,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	向邻居dtn://192.168.5.14.wu.com发送了bundle成功
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.14.wu.com),ifisNeigh(false)
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+routerTest	收到要发送的DataBundle,des_eid:dtn://192.168.5.14.wu.com
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(66),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 66
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:22,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_66,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.002662)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.002914)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.003175)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.003429)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303231,0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303490,0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303744,0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.304000,0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.304252,0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+FrequencyVectorManager	All Frequency Vector Attenuation:23
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+AreaManager	第1个区域的移动规律：
+level and id:1#2138123745,hourVector:(0.0:0.99:0.99:0.7857:0.7857:0:0:0.8179:0.8179:0:0:0.8515:0.8515:0:0:0:0:0:0:0.9227:0.9227:0:0.7472:0.7472),
+
+AreaManager	第2个区域的移动规律：
+level and id:1#-479623740,hourVector:(0.9702989999999999:0.9801:0.7778:0.7778:0:0:0.8097:0.8097:0:0:0.8429:0.8429:0:0:0:0:0:0:0.9135:0.9135:0:0:1.6982:1.9213),
+
+AreaManager	第3个区域的移动规律：
+level and id:3#912940,hourVector:(1.7250182872036324:3.5025:2.5379:1.5635:1.5793:1.5952:1.6114:1.6276:1.6441:1.6607:1.6775:1.6944:1.7115:1.7288:0.8687:0.8775:0.8864:0.8953:1.8179:1.8363:1.8548:1.8735:3.3793:4.1629),
+weekVector:(0.0:0:0:1.71:2.71:0:0),
+monthVector:(0.0:0:0:0:0:0:0:0:0:0:1:0)
+
+AreaManager	第4个区域的移动规律：
+level and id:2#1587203,hourVector:(1.7250182872036324:3.5025:2.5379:1.5635:1.5793:1.5952:1.6114:1.6276:1.6441:1.6607:1.6775:1.6944:1.7115:1.7288:0.8687:0.8775:0.8864:0.8953:1.8179:1.8363:1.8548:1.8735:3.3793:4.1629),
+weekVector:(0.0:0:0:1.71:2.71:0:0),
+
+AreaManager	第5个区域的移动规律：
+level and id:1#1854974240,hourVector:(0.7547192872036325:0.7623:0:0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0.8601:0.8601:0:0:0:0:0:0:0.9321:0.9321:0:0.7547),
+
+AreaManager	第6个区域的移动规律：
+level and id:1#-259923744,hourVector:(0.0:0.77:0.77:0:0:0.8016:0.8016:0:0:0.8345:0.8345:0:0:0.8687:0.8687:0.8775:0.8864:0.8953:1.8179:0:0:0.9415:1.6812:1.71),
+
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.304508,0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.304750,0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.304999,0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+routerTest	move to a new area : level and id:1#1854974240,hourVector:(0.7547192872036325:0.7623:1:0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0.8601:0.8601:0:0:0:0:0:0:0.9321:0.9321:0:0.7547),
+
+GeoHistoryRouter	移动到新区域：level and id:1#1854974240,hourVector:(0.7547192872036325:0.7623:1:0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0.8601:0.8601:0:0:0:0:0:0:0.9321:0.9321:0:0.7547),
+
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.305266,0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.305517,0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.305762,0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+GeoHistoryRouter	geohistory router, handle contact up
+routerTest	geohistory router, handle contact up,dst(dtn://192.168.5.12.wu.com)
+Neighbour	neighbour(dtn://192.168.5.12.wu.com) add fvector to timeManager to counting
+GeoHistoryRouter	向邻居dtn://192.168.5.12.wu.com发送了bundle成功
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.12.wu.com),ifisNeigh(true)
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+GeoHistoryRouter	本节点往dtn://192.168.5.12.wu.com发送自己的区域移动信息
+GeoHistoryRouter	向指定邻居发送各个Area的频率信息
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+GeoHistoryRouter	向 特定邻居发送信息  的路由方式查找路由表中的Link,bundle dst:dtn://192.168.5.12.wu.com
+GeoHistoryRouter	match entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+GeoHistoryRouter	get_matching dtn://192.168.5.12.wu.com done, 1 match(es)
+GeoHistoryRouter	checking route entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938 link link-0 (android.geosvr.dtn.servlib.contacts.OpportunisticLink@212dfb48)
+GeoHistoryRouter	route_bundle bundle id 67: forwarded on 1 links
+Neighbour	打印邻居（dtn://192.168.5.12.wu.com）的区域移动规律：
+Neighbour	第1个区域：
+level and id:1#1645316860,hourVector:(0.0:0.8262:0:0.8429:0.8429:0.8601:0.8601:0:0:0:0:0:0:0:0:0:0:0:0.9801:0.99:0.99:0:0.7936:1.6033),
+
+Neighbour	第2个区域：
+level and id:1#1424349019,hourVector:(0.0:0.8262:0.8262:0.8345:0:0:0.8687:0.8687:0.8775:0.8864:0.8953:0.9044:0.9135:0.9227:0.9321:0.9415:0.951:0.9606:1.9504:0.9801:0:0:0.8016:0.8016),
+
+Neighbour	第3个区域：
+level and id:3#912940,hourVector:(0.8097278682212583:1.6441:0.8262:1.6775:1.6944:1.7115:1.7288:0.8687:0.8775:0.8864:0.8953:0.9044:0.9135:0.9227:0.9321:0.9415:0.951:0.9606:1.9504:1.9701:0.99:0:1.5952:2.405),
+weekVector:(0.0:0:0:0.9:1.9:0:0),
+monthVector:(0.0:0:0:0:0:0:0:0:0:0:1:0)
+
+Neighbour	第4个区域：
+level and id:2#1587203,hourVector:(0.8097278682212583:0.8179:0:0:0.8515:0.8515:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0.8097),
+weekVector:(0.0:0:0:0.9:1.9:0:0),
+
+Neighbour	第5个区域：
+level and id:2#1600138897,hourVector:(0.0:0.8262:0.8262:1.6775:0.8429:0.8601:1.7288:0.8687:0.8775:0.8864:0.8953:0.9044:0.9135:0.9227:0.9321:0.9415:0.951:0.9606:1.9504:1.9701:0.99:0:1.5952:2.405),
+weekVector:(0.0:0:0:0.9:2:0:0),
+
+Neighbour	第6个区域：
+level and id:1#1854974240,hourVector:(0.8097278682212583:0.8179:0:0:0.8515:0.8515:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0.8097),
+
+routerTest	geohistory router, handle reroute all bundle
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(51),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 51
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:23,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(2),bundle_51,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+routerTest	普通转发方式查找路由表中Link,bundle dst:dtn://192.168.5.13.wu.com,sameAreaLevel:2
+routerTest	普通转发方式查找路由表中Link,match entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 1 match(es)
+ChanceValueCompute	通过计算获得bundle_51的有效时间向量：null
+ChanceValueCompute	通过计算获得bundle_51的有效时间向量：null
+routerTest	checking route entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938 link link-0 (android.geosvr.dtn.servlib.contacts.OpportunisticLink@212dfb48)
+routerTest	普通转发完成:dst(dtn://192.168.5.13.wu.com),copyNum(1),bundle_51,目的区域(0-3)：1424349019.1424349019.1587203.912940
+routerTest	route_bundle bundle id 51: forwarded on 1 links
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(52),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 52
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:24,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_52,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+routerTest	普通转发方式查找路由表中Link,bundle dst:dtn://192.168.5.14.wu.com,sameAreaLevel:2
+routerTest	本节点和比邻居dtn://192.168.5.12.wu.com一样接近目标区域
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(53),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 53
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:25,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(2),bundle_53,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+routerTest	普通转发方式查找路由表中Link,bundle dst:dtn://192.168.5.13.wu.com,sameAreaLevel:2
+routerTest	普通转发方式查找路由表中Link,match entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 1 match(es)
+ChanceValueCompute	通过计算获得bundle_53的有效时间向量：null
+ChanceValueCompute	通过计算获得bundle_53的有效时间向量：null
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+routerTest	checking route entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938 link link-0 (android.geosvr.dtn.servlib.contacts.OpportunisticLink@212dfb48)
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306012,0.003602)
+routerTest	普通转发完成:dst(dtn://192.168.5.13.wu.com),copyNum(1),bundle_53,目的区域(0-3)：1424349019.1424349019.1587203.912940
+routerTest	route_bundle bundle id 53: forwarded on 1 links
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(54),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 54
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:26,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_54,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+routerTest	普通转发方式查找路由表中Link,bundle dst:dtn://192.168.5.14.wu.com,sameAreaLevel:2
+routerTest	本节点和比邻居dtn://192.168.5.12.wu.com一样接近目标区域
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(55),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 55
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:27,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(2),bundle_55,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+routerTest	普通转发方式查找路由表中Link,bundle dst:dtn://192.168.5.13.wu.com,sameAreaLevel:2
+routerTest	普通转发方式查找路由表中Link,match entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 1 match(es)
+ChanceValueCompute	通过计算获得bundle_55的有效时间向量：null
+ChanceValueCompute	通过计算获得bundle_55的有效时间向量：null
+routerTest	checking route entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938 link link-0 (android.geosvr.dtn.servlib.contacts.OpportunisticLink@212dfb48)
+routerTest	普通转发完成:dst(dtn://192.168.5.13.wu.com),copyNum(1),bundle_55,目的区域(0-3)：1424349019.1424349019.1587203.912940
+routerTest	route_bundle bundle id 55: forwarded on 1 links
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(56),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 56
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:28,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_56,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+routerTest	普通转发方式查找路由表中Link,bundle dst:dtn://192.168.5.14.wu.com,sameAreaLevel:2
+routerTest	本节点和比邻居dtn://192.168.5.12.wu.com一样接近目标区域
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(57),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 57
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:29,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(2),bundle_57,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+routerTest	普通转发方式查找路由表中Link,bundle dst:dtn://192.168.5.13.wu.com,sameAreaLevel:2
+routerTest	普通转发方式查找路由表中Link,match entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 1 match(es)
+ChanceValueCompute	通过计算获得bundle_57的有效时间向量：null
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+ChanceValueCompute	通过计算获得bundle_57的有效时间向量：null
+routerTest	checking route entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938 link link-0 (android.geosvr.dtn.servlib.contacts.OpportunisticLink@212dfb48)
+routerTest	普通转发完成:dst(dtn://192.168.5.13.wu.com),copyNum(1),bundle_57,目的区域(0-3)：1424349019.1424349019.1587203.912940
+routerTest	route_bundle bundle id 57: forwarded on 1 links
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(58),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 58
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:30,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_58,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+routerTest	普通转发方式查找路由表中Link,bundle dst:dtn://192.168.5.14.wu.com,sameAreaLevel:2
+routerTest	本节点和比邻居dtn://192.168.5.12.wu.com一样接近目标区域
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(59),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 59
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:31,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(2),bundle_59,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+routerTest	普通转发方式查找路由表中Link,bundle dst:dtn://192.168.5.13.wu.com,sameAreaLevel:2
+routerTest	普通转发方式查找路由表中Link,match entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 1 match(es)
+ChanceValueCompute	通过计算获得bundle_59的有效时间向量：null
+ChanceValueCompute	通过计算获得bundle_59的有效时间向量：null
+routerTest	checking route entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938 link link-0 (android.geosvr.dtn.servlib.contacts.OpportunisticLink@212dfb48)
+routerTest	普通转发完成:dst(dtn://192.168.5.13.wu.com),copyNum(1),bundle_59,目的区域(0-3)：1424349019.1424349019.1587203.912940
+routerTest	route_bundle bundle id 59: forwarded on 1 links
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(60),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 60
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:32,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_60,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+routerTest	普通转发方式查找路由表中Link,bundle dst:dtn://192.168.5.14.wu.com,sameAreaLevel:2
+routerTest	本节点和比邻居dtn://192.168.5.12.wu.com一样接近目标区域
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(61),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 61
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:33,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(2),bundle_61,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+routerTest	普通转发方式查找路由表中Link,bundle dst:dtn://192.168.5.13.wu.com,sameAreaLevel:2
+routerTest	普通转发方式查找路由表中Link,match entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 1 match(es)
+ChanceValueCompute	通过计算获得bundle_61的有效时间向量：null
+ChanceValueCompute	通过计算获得bundle_61的有效时间向量：null
+routerTest	checking route entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938 link link-0 (android.geosvr.dtn.servlib.contacts.OpportunisticLink@212dfb48)
+routerTest	普通转发完成:dst(dtn://192.168.5.13.wu.com),copyNum(1),bundle_61,目的区域(0-3)：1424349019.1424349019.1587203.912940
+routerTest	route_bundle bundle id 61: forwarded on 1 links
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(62),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 62
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:34,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_62,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+routerTest	普通转发方式查找路由表中Link,bundle dst:dtn://192.168.5.14.wu.com,sameAreaLevel:2
+routerTest	本节点和比邻居dtn://192.168.5.12.wu.com一样接近目标区域
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(63),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 63
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:35,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(2),bundle_63,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+routerTest	普通转发方式查找路由表中Link,bundle dst:dtn://192.168.5.13.wu.com,sameAreaLevel:2
+routerTest	普通转发方式查找路由表中Link,match entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 1 match(es)
+ChanceValueCompute	通过计算获得bundle_63的有效时间向量：null
+ChanceValueCompute	通过计算获得bundle_63的有效时间向量：null
+routerTest	checking route entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938 link link-0 (android.geosvr.dtn.servlib.contacts.OpportunisticLink@212dfb48)
+routerTest	普通转发完成:dst(dtn://192.168.5.13.wu.com),copyNum(1),bundle_63,目的区域(0-3)：1424349019.1424349019.1587203.912940
+routerTest	route_bundle bundle id 63: forwarded on 1 links
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(64),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 64
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:36,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_64,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+routerTest	普通转发方式查找路由表中Link,bundle dst:dtn://192.168.5.14.wu.com,sameAreaLevel:2
+routerTest	本节点和比邻居dtn://192.168.5.12.wu.com一样接近目标区域
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(65),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 65
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:37,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(2),bundle_65,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+routerTest	普通转发方式查找路由表中Link,bundle dst:dtn://192.168.5.13.wu.com,sameAreaLevel:2
+routerTest	普通转发方式查找路由表中Link,match entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 1 match(es)
+ChanceValueCompute	通过计算获得bundle_65的有效时间向量：null
+ChanceValueCompute	通过计算获得bundle_65的有效时间向量：null
+routerTest	checking route entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938 link link-0 (android.geosvr.dtn.servlib.contacts.OpportunisticLink@212dfb48)
+routerTest	普通转发完成:dst(dtn://192.168.5.13.wu.com),copyNum(1),bundle_65,目的区域(0-3)：1424349019.1424349019.1587203.912940
+routerTest	route_bundle bundle id 65: forwarded on 1 links
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(66),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 66
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:38,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_66,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	check entry android.geosvr.dtn.servlib.routing.RouteEntry@212fd938
+routerTest	普通转发方式查找路由表中Link,bundle dst:dtn://192.168.5.14.wu.com,sameAreaLevel:2
+routerTest	本节点和比邻居dtn://192.168.5.12.wu.com一样接近目标区域
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+Link	reset link:link dest(/192.168.5.12) 
+IPDiscovery	收到IPDiscovery的消息，Type：tcp, nexthop:/192.168.5.12:4556, remote_eid:dtn://192.168.5.12.wu.com
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306304,0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306578,0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+Link	reset link:link dest(/192.168.5.12) 
+IPDiscovery	收到IPDiscovery的消息，Type：tcp, nexthop:/192.168.5.12:4556, remote_eid:dtn://192.168.5.12.wu.com
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306691,0.003564)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+Link	reset link:link dest(/192.168.5.12) 
+IPDiscovery	收到IPDiscovery的消息，Type：tcp, nexthop:/192.168.5.12:4556, remote_eid:dtn://192.168.5.12.wu.com
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,0.003494)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,0.003284)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+Link	reset link:link dest(/192.168.5.12) 
+IPDiscovery	收到IPDiscovery的消息，Type：tcp, nexthop:/192.168.5.12:4556, remote_eid:dtn://192.168.5.12.wu.com
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,0.002975)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+GeoHistoryRouter	geohistory router, handle contact down
+routerTest	geohistory router, handle contact down,dst(dtn://192.168.5.12.wu.com)
+Neighbour	neighbour(dtn://192.168.5.12.wu.com) remove fvector from timeManager
+GeoHistoryRouter	geohistory router, handle contact up
+routerTest	geohistory router, handle contact up,dst(dtn://192.168.5.12.wu.com)
+Neighbour	neighbour(dtn://192.168.5.12.wu.com) add fvector to timeManager to counting
+GeoHistoryRouter	GeohistoryRouter 收到一个 BundleReceivedEvent
+GeoHistoryRouter	本节点往dtn://192.168.5.12.wu.com发送自己的区域移动信息
+GeoHistoryRouter	向指定邻居发送各个Area的频率信息
+GeoHistoryRouter	get_matching dtn://192.168.5.12.wu.com done, 0 match(es)
+GeoHistoryRouter	route_bundle bundle id 69: forwarded on 0 links
+GeoHistoryRouter	向邻居dtn://192.168.5.12.wu.com发送了bundle成功
+routerTest	handle_sendBundle ,send Bundle to neighbour ,dst(dtn://192.168.5.12.wu.com),ifisNeigh(true)
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+Link	reset link:link dest(/192.168.5.12) 
+IPDiscovery	收到IPDiscovery的消息，Type：tcp, nexthop:/192.168.5.12:4556, remote_eid:dtn://192.168.5.12.wu.com
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,0.002708)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,0.002426)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+Neighbour	打印邻居（dtn://192.168.5.12.wu.com）的区域移动规律：
+Neighbour	第1个区域：
+level and id:1#1645316860,hourVector:(0.0:0.8262:0:0.8429:0.8429:0.8601:0.8601:0:0:0:0:0:0:0:0:0:0:0:0.9801:0.99:0.99:0:0.7936:1.6033),
+
+Neighbour	第2个区域：
+level and id:1#1424349019,hourVector:(0.0:0.8262:0.8262:0.8345:0:0:0.8687:0.8687:0.8775:0.8864:0.8953:0.9044:0.9135:0.9227:0.9321:0.9415:0.951:0.9606:1.9504:0.9801:0:0:0.8016:0.8016),
+
+Neighbour	第3个区域：
+level and id:3#912940,hourVector:(0.8097278682212583:1.6441:0.8262:1.6775:1.6944:1.7115:1.7288:0.8687:0.8775:0.8864:0.8953:0.9044:0.9135:0.9227:0.9321:0.9415:0.951:0.9606:1.9504:1.9701:0.99:0:1.5952:2.405),
+weekVector:(0.0:0:0:0.9:1.9:0:0),
+monthVector:(0.0:0:0:0:0:0:0:0:0:0:1:0)
+
+Neighbour	第4个区域：
+level and id:2#1587203,hourVector:(0.8097278682212583:0.8179:0:0:0.8515:0.8515:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0.8097),
+weekVector:(0.0:0:0:0.9:1.9:0:0),
+
+Neighbour	第5个区域：
+level and id:2#1600138897,hourVector:(0.0:0.8262:0.8262:1.6775:0.8429:0.8601:1.7288:0.8687:0.8775:0.8864:0.8953:0.9044:0.9135:0.9227:0.9321:0.9415:0.951:0.9606:1.9504:1.9701:0.99:0:1.5952:2.405),
+weekVector:(0.0:0:0:0.9:2:0:0),
+
+Neighbour	第6个区域：
+level and id:1#1854974240,hourVector:(0.8097278682212583:0.8179:0:0:0.8515:0.8515:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0.8097),
+
+routerTest	geohistory router, handle reroute all bundle
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(51),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 51
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:39,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(1),bundle_51,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(52),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 52
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:40,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_52,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(53),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 53
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:41,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(1),bundle_53,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(54),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 54
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:42,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_54,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(55),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 55
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:43,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(1),bundle_55,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(56),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 56
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:44,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_56,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(57),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 57
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:45,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(1),bundle_57,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(58),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 58
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:46,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_58,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(59),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 59
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:47,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(1),bundle_59,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(60),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 60
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:48,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_60,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(61),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 61
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:49,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(1),bundle_61,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(62),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 62
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:50,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_62,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(63),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 63
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:51,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(1),bundle_63,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(64),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 64
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:52,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_64,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.13.wu.com),bundleid(65),areaId(1424349019,1424349019,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 65
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:53,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.13.wu.com),copyNum(1),bundle_65,目的区域(0-3)：1424349019.1424349019.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.13.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+GeoHistoryRouter	route_bundle:send data bundle,bundle dst(dtn://192.168.5.14.wu.com),bundleid(66),areaId(-259923744,-259923744,1587203,912940) 
+GeoHistoryRouter	route_bundle: checking bundle 66
+FrequencyVectorManager	FrequencyVectorManager create new Frequency vector,hourlistsize:54,weeklistsize:3,monthlistsize:2
+routerTest	没有进入目标区域，执行普通转发:dst(dtn://192.168.5.14.wu.com),copyNum(2),bundle_66,目的区域(0-3)：-259923744.-259923744.1587203.912940
+GeoHistoryRouter	get_matching dtn://192.168.5.14.wu.com done, 0 match(es)
+routerTest	没有找到合适的link
+Link	reset link:link dest(/192.168.5.12) 
+IPDiscovery	收到IPDiscovery的消息，Type：tcp, nexthop:/192.168.5.12:4556, remote_eid:dtn://192.168.5.12.wu.com
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,0.002060)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+Link	reset link:link dest(/192.168.5.12) 
+IPDiscovery	收到IPDiscovery的消息，Type：tcp, nexthop:/192.168.5.12:4556, remote_eid:dtn://192.168.5.12.wu.com
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,0.001807)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,0.001531)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+Link	reset link:link dest(/192.168.5.12) 
+IPDiscovery	收到IPDiscovery的消息，Type：tcp, nexthop:/192.168.5.12:4556, remote_eid:dtn://192.168.5.12.wu.com
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,0.001276)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+FrequencyVectorManager	All Frequency Vector Attenuation:55
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,0.001018)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+AreaManager	第1个区域的移动规律：
+level and id:1#2138123745,hourVector:(0.0:0.9801:0.9801:0.7778:0.7778:0:0:0.8097:0.8097:0:0:0.8429:0.8429:0:0:0:0:0:0:0.9135:0.9135:0:0.7397:0.7397),
+
+AreaManager	第2个区域的移动规律：
+level and id:1#-479623740,hourVector:(0.96059601:0.9703:0.77:0.77:0:0:0.8016:0.8016:0:0:0.8345:0.8345:0:0:0:0:0:0:0.9044:0.9044:0:0:1.6812:1.9021),
+
+AreaManager	第3个区域的移动规律：
+level and id:3#912940,hourVector:(1.707768104331596:3.4675:3.5025:2.5379:1.5635:1.5793:1.5952:1.6114:1.6276:1.6441:1.6607:1.6775:1.6944:1.7115:0.8601:0.8687:0.8775:0.8864:1.7997:1.8179:1.8363:1.8548:3.3455:4.1213),
+weekVector:(0.0:0:0:1.71:2.71:0:0),
+monthVector:(0.0:0:0:0:0:0:0:0:0:0:1:0)
+
+AreaManager	第4个区域的移动规律：
+level and id:2#1587203,hourVector:(1.707768104331596:3.4675:3.5025:2.5379:1.5635:1.5793:1.5952:1.6114:1.6276:1.6441:1.6607:1.6775:1.6944:1.7115:0.8601:0.8687:0.8775:0.8864:1.7997:1.8179:1.8363:1.8548:3.3455:4.1213),
+weekVector:(0.0:0:0:1.71:2.71:0:0),
+
+Link	reset link:link dest(/192.168.5.12) 
+IPDiscovery	收到IPDiscovery的消息，Type：tcp, nexthop:/192.168.5.12:4556, remote_eid:dtn://192.168.5.12.wu.com
+AreaManager	第5个区域的移动规律：
+level and id:1#1854974240,hourVector:(0.7471720943315961:0.7547:0.99:0.99:0.7857:0.7857:0:0:0.8179:0.8179:0:0:0.8515:0.8515:0:0:0:0:0:0:0.9227:0.9227:0:0.7472),
+
+AreaManager	第6个区域的移动规律：
+level and id:1#-259923744,hourVector:(0.0:0.7623:0.7623:0:0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0.8601:0.8601:0.8687:0.8775:0.8864:1.7997:0:0:0.9321:1.6644:1.6929),
+
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,0.000759)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+Link	reset link:link dest(/192.168.5.12) 
+IPDiscovery	收到IPDiscovery的消息，Type：tcp, nexthop:/192.168.5.12:4556, remote_eid:dtn://192.168.5.12.wu.com
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,0.000492)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,0.000234)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 1854974240
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.000039)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+routerTest	move to a new area : level and id:1#-259923744,hourVector:(0.0:0.7623:0.7623:1:0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0.8601:0.8601:0.8687:0.8775:0.8864:1.7997:0:0:0.9321:1.6644:1.6929),
+
+GeoHistoryRouter	移动到新区域：level and id:1#-259923744,hourVector:(0.0:0.7623:0.7623:1:0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0.8601:0.8601:0.8687:0.8775:0.8864:1.7997:0:0:0.9321:1.6644:1.6929),
+
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.000307)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.000572)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.000823)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.001073)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.001337)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.001603)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.001862)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.002119)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.002370)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.002630)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.002894)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.003159)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306700,-0.003410)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306614,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306358,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+FrequencyVectorManager	All Frequency Vector Attenuation:55
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+AreaManager	第1个区域的移动规律：
+level and id:1#2138123745,hourVector:(0.0:0.9703:0.9703:0.77:0.77:0:0:0.8016:0.8016:0:0:0.8345:0.8345:0:0:0:0:0:0:0.9044:0.9044:0:0.7323:0.7323),
+
+AreaManager	第2个区域的移动规律：
+level and id:1#-479623740,hourVector:(0.9509900498999999:0.9606:0.7623:0.7623:0:0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0:0:0:0:0.8953:0.8953:0:0:1.6644:1.8831),
+
+AreaManager	第3个区域的移动规律：
+level and id:3#912940,hourVector:(1.69069042328828:3.4328:3.4675:3.5025:2.5379:1.5635:1.5793:1.5952:1.6114:1.6276:1.6441:1.6607:1.6775:1.6944:0.8515:0.8601:0.8687:0.8775:1.7817:1.7997:1.8179:1.8363:3.3121:4.08),
+weekVector:(0.0:0:0:1.71:2.71:0:0),
+monthVector:(0.0:0:0:0:0:0:0:0:0:0:1:0)
+
+AreaManager	第4个区域的移动规律：
+level and id:2#1587203,hourVector:(1.69069042328828:3.4328:3.4675:3.5025:2.5379:1.5635:1.5793:1.5952:1.6114:1.6276:1.6441:1.6607:1.6775:1.6944:0.8515:0.8601:0.8687:0.8775:1.7817:1.7997:1.8179:1.8363:3.3121:4.08),
+weekVector:(0.0:0:0:1.71:2.71:0:0),
+
+AreaManager	第5个区域的移动规律：
+level and id:1#1854974240,hourVector:(0.7397003733882802:0.7472:0.9801:0.9801:0.7778:0.7778:0:0:0.8097:0.8097:0:0:0.8429:0.8429:0:0:0:0:0:0:0.9135:0.9135:0:0.7397),
+
+AreaManager	第6个区域的移动规律：
+level and id:1#-259923744,hourVector:(0.0:0.7547:0.7547:0.99:0.99:0.7857:0.7857:0:0:0.8179:0.8179:0:0:0.8515:0.8515:0.8601:0.8687:0.8775:1.7817:0:0:0.9227:1.6477:1.676),
+
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.306103,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.305847,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.305578,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.305317,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.305045,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -259923744
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.304788,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+routerTest	move to a new area : level and id:1#-479623740,hourVector:(0.9509900498999999:0.9606:0.7623:0.7623:1:0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0:0:0:0:0.8953:0.8953:0:0:1.6644:1.8831),
+
+GeoHistoryRouter	移动到新区域：level and id:1#-479623740,hourVector:(0.9509900498999999:0.9606:0.7623:0.7623:1:0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0:0:0:0:0.8953:0.8953:0:0:1.6644:1.8831),
+
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.304525,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.304271,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303997,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303736,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303484,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303229,-0.003602)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.003431)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.003158)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.002908)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.002642)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.002393)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.002114)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.001854)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+FrequencyVectorManager	All Frequency Vector Attenuation:55
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+FrequencyVectorManager	Frequency Vector Attenuation
+AreaManager	第1个区域的移动规律：
+level and id:1#2138123745,hourVector:(0.0:0.9606:0.9606:0.7623:0.7623:0:0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0:0:0:0:0.8953:0.8953:0:0.725:0.725),
+
+AreaManager	第2个区域的移动规律：
+level and id:1#-479623740,hourVector:(0.9414801494009999:0.951:0.7547:0.7547:0.99:0.99:0.7857:0.7857:0:0:0.8179:0.8179:0:0:0:0:0:0:0.8864:0.8864:0:0:1.6477:1.8642),
+
+AreaManager	第3个区域的移动规律：
+level and id:3#912940,hourVector:(1.6737835190553971:3.3985:3.4328:3.4675:3.5025:2.5379:1.5635:1.5793:1.5952:1.6114:1.6276:1.6441:1.6607:1.6775:0.8429:0.8515:0.8601:0.8687:1.7639:1.7817:1.7997:1.8179:3.279:4.0392),
+weekVector:(0.0:0:0:1.71:2.71:0:0),
+monthVector:(0.0:0:0:0:0:0:0:0:0:0:1:0)
+
+AreaManager	第4个区域的移动规律：
+level and id:2#1587203,hourVector:(1.6737835190553971:3.3985:3.4328:3.4675:3.5025:2.5379:1.5635:1.5793:1.5952:1.6114:1.6276:1.6441:1.6607:1.6775:0.8429:0.8515:0.8601:0.8687:1.7639:1.7817:1.7997:1.8179:3.279:4.0392),
+weekVector:(0.0:0:0:1.71:2.71:0:0),
+
+AreaManager	第5个区域的移动规律：
+level and id:1#1854974240,hourVector:(0.7323033696543974:0.7397:0.9703:0.9703:0.77:0.77:0:0:0.8016:0.8016:0:0:0.8345:0.8345:0:0:0:0:0:0:0.9044:0.9044:0:0.7323),
+
+AreaManager	第6个区域的移动规律：
+level and id:1#-259923744,hourVector:(0.0:0.7472:0.7472:0.9801:0.9801:0.7778:0.7778:0:0:0.8097:0.8097:0:0:0.8429:0.8429:0.8515:0.8601:0.8687:1.7639:0:0:0.9135:1.6312:1.6592),
+
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.001584)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.001314)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.001055)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.000785)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.000513)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.000259)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,-0.000002)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , -479623740
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.000256)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+routerTest	move to a new area : level and id:1#2138123745,hourVector:(0.0:0.9606:0.9606:0.7623:0.7623:1:0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0:0:0:0:0.8953:0.8953:0:0.725:0.725),
+
+GeoHistoryRouter	移动到新区域：level and id:1#2138123745,hourVector:(0.0:0.9606:0.9606:0.7623:0.7623:1:0:0.7936:0.7936:0:0:0.8262:0.8262:0:0:0:0:0:0:0.8953:0.8953:0:0.725:0.725),
+
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.000557)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.000823)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.001091)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.001356)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.001610)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.001856)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.002124)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745
+CurrentLocationFromSimulator	向模拟器发出本地位置请求
+CurrentLocationFromSimulator	获取请求到的经纬度信息(转换大小端的)：(longitude,latitude):(116.303137,0.002378)
+QuestAreaInfo	分层信息(由最顶层到最底层)：areainfo（从顶层到底层）:270056 , 912940 , 1587203 , 2138123745

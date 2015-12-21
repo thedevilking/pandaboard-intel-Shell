@@ -218,6 +218,11 @@ elif [ $# -eq 1 ];then
 			./startExperiment.sh $alldevices
 		cd $this_dir
 
+	elif [ $1 = "-startVDtnExperiment" ];then
+		cd ./geoDtnExperiment/
+			./startVExperiment.sh $alldevices
+		cd $this_dir
+
 	elif [ $1 = "-endExperiment" ];then
 		cd ./geoDtnExperiment/
 			./endExperiment.sh $alldevices

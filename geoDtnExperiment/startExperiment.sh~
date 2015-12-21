@@ -4,33 +4,34 @@ device="Medfie-192.168.5.11"
 
 #start dection
 cd ./stat/
-	./startDection.sh $*
+#	./startDection.sh $*
 cd ..
 
 a=0
 #payload sum
-b=10
+b=1
 
 while [ $a != $b ]
 do
 	a=`expr $a + 1`
 	adb -s $device shell "geoDtnClient eid:13 payload:1 areaid:defo"
-	adb -s $device shell "geoDtnClient eid:14 payload:2 areaid:nmij"
+#	adb -s $device shell "geoDtnClient eid:14 payload:2 areaid:nmij"
 done
 
-#	adb -s $device shell "geoDtnClient eid:13 payload:1 areaid:defo"
-#	adb -s $device shell "geoDtnClient eid:13 payload:1 areaid:defo"
+a=0
+b=263
 
-#	adb -s $device shell "geoDtnClient eid:13 payload:1 areaid:defo"
-#	adb -s $device shell "geoDtnClient eid:14 payload:2 areaid:nmij"
+while [ $a != $b ]
+do
+	a=`expr $a + 1`
+	echo "sleep seconds:$a"
+	sleep 1
+done
 
-#	adb -s $device shell "geoDtnClient eid:13 payload:1 areaid:defo"
-#	adb -s $device shell "geoDtnClient eid:13 payload:1 areaid:defo"
+echo "force-stop dtn"
+./endExperiment.sh $*
 
-#	adb -s $device shell "geoDtnClient eid:13 payload:1 areaid:defo"
-#	adb -s $device shell "geoDtnClient eid:14 payload:2 areaid:nmij"
+echo "get data"
+./getGeoData.sh $*
 
-#adb -s $device shell "geoDtnClient eid:13 payload:1 areaid:defo"
-#adb -s $device shell "geoDtnClient eid:13 payload:2 areaid:defo"
-#adb -s $device shell "geoDtnClient eid:13 payload:3 areaid:defo"
 
